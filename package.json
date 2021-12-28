@@ -1,0 +1,32 @@
+{
+  "name": "cloudflare-workers-typescript",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers TypeScript setup",
+  "main": "build/worker.js",
+  "homepage": "https://github.com/karanpratapsingh/cloudflare-workers-typescript#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karanpratapsingh/cloudflare-workers-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanpratapsingh/cloudflare-workers-typescript.git"
+  },
+  "keywords": ["cloudflare", "typescript"],
+  "author": {
+    "name": "Karan Pratap Singh",
+    "email": "contact@karanpratapsingh.com",
+    "url": "https://karanpratapsingh.com"
+  },
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "build": "npx esbuild ./index.ts --bundle --outfile=build/worker.js",
+    "publish": "npx wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.3.0",
+    "@cloudflare/wrangler": "1.19.6",
+    "esbuild": "0.14.8",
+    "typescript": "4.5.4"
+  }
+}
