@@ -1,0 +1,15 @@
+name = "cloudflare-workers-typescript"
+type = "javascript"
+route = ''
+zone_id = ''
+account_id = 'TODO'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2021-12-28"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"
