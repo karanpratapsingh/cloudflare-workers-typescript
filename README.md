@@ -1,6 +1,6 @@
 ## Cloudflare Workers TypeScript
 
-![banner](https://user-images.githubusercontent.com/29705703/147551010-4690d28e-2e22-4451-94de-44da25ff0ed7.png)
+<img width="836" alt="banner" src="https://user-images.githubusercontent.com/29705703/147551562-52329b45-099f-4c14-9c9d-c1239c626cb9.png">
 
 ### Install
 
